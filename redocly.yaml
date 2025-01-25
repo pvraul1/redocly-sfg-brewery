@@ -21,5 +21,3 @@ theme:
         - lang: JavaScript
         - lang: PHP
         - lang: Python
-reunite:
-  ignoreLinkChecker: true
