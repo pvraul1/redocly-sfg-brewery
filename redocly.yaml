@@ -7,6 +7,12 @@ extends:
 rules:
   no-unused-components: error
   no-server-example.com: off
+  operation-description: error
+decorators:
+  filter-out:
+    property: x-audience
+    value: Internal
+    matchStrategy: any
 theme:
   openapi:
     htmlTemplate: ./docs/index.html
